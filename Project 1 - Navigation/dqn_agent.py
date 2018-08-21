@@ -33,6 +33,8 @@ class Agent():
             action_size (int): dimension of each action
             seed (int): random seed
             DDQN (bool): apply Double DDQN algorithm
+            PRB (bool): use a Prioritized ReplayBuffer
+            Dueling (bool): use a Dueling NN-architecture
         """
         self.state_size = state_size
         self.action_size = action_size
