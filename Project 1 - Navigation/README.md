@@ -10,14 +10,13 @@ This repository contains solution to Project 1 of the Deep Reinforcement Learnin
 ## Project details
 
 The objective of this project is to solve a "Banana collector game". Essentially, it is a square world filled with blue and yellow bananas.
-For each yellow banana picked up, a reward of +1 is given, whereas a blue banana yields a reward of -1. Consequently, we want a agent which
-picks up the yellow bananas while avoiding the blue ones.
+For each yellow banana picked up, a reward of +1 is given, whereas a blue banana yields a reward of -1.
+Consequently, we want a agent which picks up the yellow bananas while avoiding the blue ones.
 
 
 ### State and agent space
 
-The state space has 37 dimensions, of which the first parameter is the agent's velocity, and the remaining 36 are ray-based perception of the
-forward facing environment of the agent.
+The state space has 37 dimensions, of which the first parameter is the agent's velocity, and the remaining 36 are ray-based perception of the forward facing environment of the agent.
 
 In each time step, the agent has four choices. He can
 
@@ -51,10 +50,10 @@ After successfully installing dependencies, we must build the environment. Pleas
 * [Windows (32-bit)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
 * [Windows (64-bit)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
-Then place the file in the `/p1_navigation` catalogue, and you are set!
+Then place the file in the `/p1_navigation` catalogue, and also overwrite `/p1_navigation/Navigation.ipynb`
+from the `https://github.com/udacity/deep-reinforcement-learning` repo, with the file in this repo, and you are set!
 
 ## Instructions
 
-To train the agent, please look at `Navigation.ipynb`. This file will take you though the process, from importing the necessary
-packages to training the model. Essentially, everything regarding the training of the model is given in Part 4 of the file.
+To train the agent, please look at `Navigation.ipynb`. This file will take you though the process, from importing the necessary packages to training the model. Essentially, everything regarding the training of the model is given in Part 4 of the file.
 The underlying algorithm is written in `dqn_agent.py`, wheareas the neural networks used by the agent is written in `model.py`.
