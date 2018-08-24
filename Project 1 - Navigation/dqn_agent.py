@@ -21,7 +21,9 @@ BETA_INCREASE = 1e-4    # increase of beta for importance sampling
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 class Agent():
-    """Interacts with and learns from the environment."""
+    """Interacts with and learns from the environment. The code is based on
+    the code written by the Udacity team for the Deep Reinforcement Learning 
+    course."""
 
     def __init__(self, state_size, action_size, seed, DDQN=False, PRB=False,
         Dueling=False):
