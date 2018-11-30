@@ -3,5 +3,5 @@
 ## Projects
 
 * Project 1: Navigation
-* Project 2: TBA
+* Project 2: Continuous Control
 * Project 3: TBA
