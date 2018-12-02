@@ -1,4 +1,4 @@
-# Project 2: Collaboration and Competition
+# Project 3: Collaboration and Competition
 
 This repository contains solution to Project 3 of the Deep Reinforcement Learning course at Udacity.
 
