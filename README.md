@@ -4,4 +4,4 @@
 
 * Project 1: Navigation
 * Project 2: Continuous Control
-* Project 3: TBA
+* Project 3: Collaboration and Competition
